@@ -21,21 +21,21 @@ int main(){
 }
 
 void Ordenar(char *frase){
-	 char *temp;
+     char *temp;
      char *arre[20];
-	 char *p;
-	 p=frase;
-	 arre[0]=p;
-	 int i=1;
-	 int x;
+     char *p;
+     p=frase;
+     arre[0]=p;
+     int i=1;
+     int x;
      int j;
 	
      while(*p!='\0'){
-		 if(*p==' '){
-			 arre[i]=p+1;
-			 *p='\0';		 	
-			 i++;
-		 }
+        if(*p==' '){
+	   arre[i]=p+1;
+           *p='\0';		 	
+	   i++;
+	    }
          p++;
 	 }
 	  for(x=0; x<i-1; x++){
@@ -47,10 +47,11 @@ void Ordenar(char *frase){
                 }
             }
         }
-		for (int x=0;x<i;x++){
-			cout<<arre[x]<<" ";
-			}
+	for (int x=0;x<i;x++){
+	cout<<arre[x]<<" ";
+	}
     }
+/*By 0x00013 & Ibrain
 	 
 
 	 
